@@ -1,4 +1,5 @@
-"""Solution for group solving day 3"""
+"""Used as the solution for the fifth day in python"""
+
 
 def read_file(file_path):
     """Used to read a files content and return said content"""
@@ -7,10 +8,11 @@ def read_file(file_path):
         read_input = file.read()
     return read_input
 
+
 def main():
-    """a main method."""
-    # holder for work
-    x = 0
+    """Flow of solution"""
+    input_string = read_file('./input.txt')
+    print(input_string)
 
 if __name__ == "__main__":
     main()
