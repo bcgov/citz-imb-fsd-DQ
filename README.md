@@ -1,4 +1,4 @@
-# citz-imb-fsd-DQ - IMB Full Stack Developer Duck Quest
+# Citizen Services (CITZ) Information Management Branch (IMB) Full Stack Developer (FSD) Duck Quest (DQ)
 
 ## Overview
 
@@ -6,57 +6,25 @@ This repository will be used to hold the problem overview and sample data for IM
 
 As new days are added please update this readme with information on what has been done to ease the process of finding new problems.
 
-## Day Breakdowns
+## Disclamer
 
-### Day 1 - Appartment Floor Directions
+The problems in this repository have been greatly influenced by or modified from:
 
-`./day1-appartment-floor-directions`
+- [Advent of Code](https://adventofcode.com)
+- [Everybody Codes](https://everybody.codes/home)
 
-#### SOLVED September 10th 2024
+The problems in this repository are not created or owned by the developers in CITZ IMB. 
 
-#### Overview
+## Day Breakdown
 
-Given direction input (one line of text "(" go up a floor. ")" go down a floor) determine what floor you end on.
+|           | Status               | Name                           | Path                                       | Overview                                                                                                         |
+| :-------: | -------------------- | ------------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| :star:    | SOLVED Sept 10, 2024 | Appartment Directions          | `./day1-appartment-floor-directions`       | Given direction input (one line of text "(" go up a floor. ")" go down a floor) determine what floor you end on. |
+| :star:    | SOLVED Sept 17, 2024 | Appartment Directions (part 2) | `./day2-appartment-floor-directions-part2` | Given input (same as Appartment Directions) determine what step places you on floor '-1' for the first time.     |
+| :star:    | SOLVED Sept 24, 2024 | City Grid Directions           | `./day3-city-grid-directions`              | Given direction input determine the distance from your starting position to your final position.                 |
+| :star:    | SOLVED Nov 12, 2024  | Sum Repeating Numbers          | `./day4-sum-repeating-digits`              | Sum all digits in input that match the first digit.                                                              |
+| :pushpin: | UNSOLVED             | Frequency Change               | `./day5-frequency-change`                  | Given frequency and change(s) as input determine the resulting frequency.                                        |
 
-### Day 2 - Appartment Floor Directions Part 2
-
-`./day2-appartment-floor-directions-part2`
-
-#### SOLVED September 17th 2024
-
-#### Overview
-
-Given direction input (Same input as Appartment Floor Directions) determine what step places you on floor '-1' for the first time.
-
-### Day 3 - City Grid Directions
-
-`./day3-city-grid-directions`
-
-#### SOLVED September 24th 2024
-
-#### Overview
-
-Given direction input determine the distance from your starting position to your final position.
-
-### Day 4 - Sum Repeating Numbers
-
-`./day4-sum-repeating-digits`
-
-#### SOLVED November 12th 2024
-
-#### Overview
-
-Sum all digits in input that match the first digit.
-
-### Day 5 - Frequency Change
-
-`./day5-frequency-change`
-
-#### UNSOLVED
-
-#### Overview
-
-Given frequency change input determine the resulting frequency.
 
 ## Adding New Day
 
@@ -69,12 +37,3 @@ To add a new problem follow these steps:
 3. Update the `overview.md` to hold the new problem information
 4. Update the `input.txt` to hold the new problem's input
 5. Update this README with information on the new problem
-
-## Disclamer
-
-The problems in this repository have been greatly influenced by:
-
-- [Advent of Code](https://adventofcode.com)
-- [Everybody Codes](https://everybody.codes/home)
-
-
