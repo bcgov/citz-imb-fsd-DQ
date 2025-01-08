@@ -13,7 +13,7 @@ The problems in this repository have been greatly influenced by or modified from
 - [Advent of Code](https://adventofcode.com)
 - [Everybody Codes](https://everybody.codes/home)
 
-The problems in this repository are not created or owned by the developers in CITZ IMB. 
+The problems in this repository are not created or owned by the developers in CITZ IMB.
 
 ## Day Breakdown
 
@@ -35,5 +35,7 @@ To add a new problem follow these steps:
     1. Where `<X>` represents the next number of day that hasn't yet been created
     2. Where `<brief-description>` represents a 2-5 word description of the problem
 3. Update the `overview.md` to hold the new problem information
-4. Update the `input.txt` to hold the new problem's input
+4. Add a `input.txt` file to hold the new problem's input
+    - Note: This file should NOT be added to the public repository.
 5. Update this README with information on the new problem
+6. Templates for easily reading in `input.txt` have been added to the `template-day` for Python and JavaScript.
