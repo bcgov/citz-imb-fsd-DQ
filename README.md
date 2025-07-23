@@ -24,6 +24,7 @@ The problems in this repository are not created or owned by the developers in CI
 | :star:    | SOLVED Sept 24, 2024 | City Grid Directions           | `./day3-city-grid-directions`              | Given direction input determine the distance from your starting position to your final position.                 |
 | :star:    | SOLVED Nov 12, 2024  | Sum Repeating Numbers          | `./day4-sum-repeating-digits`              | Sum all digits in input that match the first digit.                                                              |
 | :pushpin: | UNSOLVED             | Frequency Change               | `./day5-frequency-change`                  | Given frequency and change(s) as input determine the resulting frequency.                                        |
+| :pushpin: | UNSOLVED             | Frequency Change (part 2)      | `./day5-frequency-change`                  | Given frequency and change(s) as input determine the first repeated frequency.                                   |
 
 
 ## Adding New Day
