@@ -1,6 +1,9 @@
 
 // Sources for code problems have asked that inputs for problems should not be shared in public repos.
-input.txt
+*.txt
+
+// ignore all files in the soln folder
+/soln/*
 
 **/node_modules
 package-lock.json
