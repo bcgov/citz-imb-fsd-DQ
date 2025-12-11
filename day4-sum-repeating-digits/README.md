@@ -3,7 +3,7 @@
 Review a sequence of digits (whole numbers.) Find the sum of all digits that match the digit following the first in the list.
 The list is circular, so the digit after the last digit is the first digit in the list.
 
-### Disclamer
+### Disclaimer
 
 This problem was heavily influenced by the [Advent of Code 2017 day 1](https://adventofcode.com/2017/day/1) problem.
 

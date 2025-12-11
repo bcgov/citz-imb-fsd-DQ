@@ -2,11 +2,11 @@
 
 ## Overview
 
-Imagine you are standing on a large city grid. You are given directions to your final destinaiton in the form of DX where:
+Imagine you are standing on a large city grid. You are given directions to your final destination in the form of DX where:
 - D = the direction to turn 90 degrees from where you are currently facing and
 - X = the number of blocks to walk in that direction.
 
-### Disclamer
+### Disclaimer
 
 This problem was heavily influenced by the [Advent of Code 2016 day 1](https://adventofcode.com/2016/day/1) problem.
 
