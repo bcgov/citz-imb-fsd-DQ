@@ -1,5 +1,11 @@
 """Used as the solution for the Xth day in python"""
 
+import time
+import os
+
+def change_dir():
+    """For python debugging"""
+    os.chdir("PWD HERE")
 
 def read_file(file_path):
     """Used to read a files content and return said content"""
@@ -15,4 +21,10 @@ def main():
     print(input_string)
 
 if __name__ == "__main__":
+    # If you want to use python debugging uncomment the following line
+    # You will also have to provide the correct path
+    # change_dir()
+    start = time.perf_counter()
     main()
+    end = time.perf_counter()
+    print("Total time: ", end - start)

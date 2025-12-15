@@ -1,11 +1,11 @@
 """Used as the solution for the fifth day in python"""
-import sys
 import os
+import time
 
-path = os.getcwd()
-os.chdir(path)
+def change_dir():
+    """For python debugging"""
+    os.chdir("/Users/tafriese/code/citz-imb-fsd-DQ/day5-frequency-change")
 
-sys.path.append("..")
 # # pylint: disable=wrong-import-position
 # from utils import read_file
 # # pylint: enable=wrong-import-position
@@ -23,4 +23,8 @@ def main():
     print(input_string)
 
 if __name__ == "__main__":
+    change_dir()
+    start = time.perf_counter()
     main()
+    end = time.perf_counter()
+    print("Total time: ", end - start)
