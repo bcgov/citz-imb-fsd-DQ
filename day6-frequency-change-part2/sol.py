@@ -3,7 +3,7 @@ import os
 import time
 
 def change_dir():
-    os.chdir("/Users/tafriese/code/FSD-AOC-SOL/citz-imb-fsd-DQ/day6-frequency-change-part2")
+    os.chdir("/Users/tafriese/code/citz-imb-fsd-DQ/day6-frequency-change-part2")
 
 # # pylint: disable=wrong-import-position
 # from utils import read_file
@@ -42,24 +42,25 @@ def parse_freq_list(freq: int, in_freq: str):
     elif operator == "-":
         freq -= delta
 
-    print(temp , operator, delta, "=", freq)
+    # print(temp , operator, delta, "=", freq)
     # input()
 
     return freq
 
 def loop(freq_list: list):
-    found_freq = []
+    found_freq = [0]
     cur_freq = 0
     rep_freq = None
 
     while rep_freq is None:
         for delta_freq in freq_list:
             cur_freq = parse_freq_list(cur_freq, delta_freq)
-            found_freq.append(cur_freq)
 
             if cur_freq in found_freq:
                 rep_freq = cur_freq
                 break
+
+            found_freq.append(cur_freq)
 
     return rep_freq
 
@@ -67,7 +68,7 @@ def main():
     """Flow of solution"""
     change_dir()
 
-    input_from = './small.txt'
+    input_from = './input.txt'
     input_string = read_file(input_from)
     #print(input_string)
     input_li = input_string.split("\n")

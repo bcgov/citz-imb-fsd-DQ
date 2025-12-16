@@ -5,7 +5,7 @@ import os
 import time
 
 def change_dir():
-    os.chdir("/Users/tafriese/code/FSD-AOC-SOL/citz-imb-fsd-DQ/day5-frequency-change")
+    os.chdir("/Users/tafriese/code/citz-imb-fsd-DQ/day5-frequency-change")
 
 sys.path.append("..")
 
@@ -43,8 +43,7 @@ def main():
     """Flow of solution"""
     change_dir()
 
-
-    input_from = './input.txt'
+    input_from = './test.txt'
     input_string = read_file(input_from)
     #print(input_string)
     input_li = input_string.split("\n")
