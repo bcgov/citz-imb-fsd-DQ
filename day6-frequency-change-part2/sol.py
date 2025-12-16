@@ -4,7 +4,7 @@ import time
 
 def change_dir():
     """For python debugging"""
-    os.chdir("/Users/tafriese/code/citz-imb-fsd-DQ/day5-frequency-change")
+    os.chdir("/Users/tafriese/code/citz-imb-fsd-DQ/day6-frequency-change-part2")
 
 # # pylint: disable=wrong-import-position
 # from utils import read_file
