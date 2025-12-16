@@ -14,17 +14,52 @@ def read_file(file_path):
         read_input = file.read()
     return read_input
 
+def comp_strs(str_a, str_b):
+    match = False
+    len_a = len(str_a)
+    len_b = len(str_b)
+
+    if len_a != len_b:
+        print("bad match")
+        return match
+
+    for partition in range(1, len_a + 1):
+        test_str_a = str_a[:partition - 1] + str_a[partition:]
+        test_str_b = str_b[:partition - 1] + str_b[partition:]
+        if test_str_a == test_str_b:
+            match = test_str_a
+            break
+
+    return match
+
+def brute_force_it(id_list):
+    current_counter = 0
+    ret_str = ""
+
+    while ret_str == "":
+        current = id_list[current_counter]
+        for comp_id in id_list[current_counter + 1 : ]:
+
+            test_comp = comp_strs(current, comp_id)
+            if test_comp:
+                ret_str = test_comp
+                break
+
+        current_counter += 1
+
+    return ret_str
+
 
 def main():
     """Flow of solution"""
     fake_tab = f'{" ":^5}'
-    file_in = './test.txt'
+    file_in = './input.txt'
     input_string = read_file(file_in)
     # print(input_string)
     in_list = input_string.splitlines()
 
-
-    # print(f'Part 2 {fake_tab} Input: {file_in} {fake_tab} Solution: {total} ')
+    total = brute_force_it(in_list)
+    print(f'Part 2 {fake_tab} Input: {file_in} {fake_tab} Solution: {total} ')
 
 
 if __name__ == "__main__":
