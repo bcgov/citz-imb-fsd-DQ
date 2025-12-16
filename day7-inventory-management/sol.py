@@ -17,7 +17,7 @@ def read_file(file_path):
 
 def main():
     """Flow of solution"""
-    input_string = read_file('./small.txt')
+    input_string = read_file('./test.txt')
     print(input_string)
 
 if __name__ == "__main__":
