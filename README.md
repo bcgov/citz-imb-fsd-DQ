@@ -20,12 +20,13 @@ The problems in this repository are not created or owned by the developers in CI
 |           | Status               | Name                           | Path                                       | Overview                                                                                                         |
 | :-------: | -------------------- | ------------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | :star:    | SOLVED Sept 10, 2024 | Apartment Directions          | `./day1-apartment-floor-directions`       | Given direction input (one line of text "(" go up a floor. ")" go down a floor) determine what floor you end on. |
-| :star:    | SOLVED Sept 17, 2024 | Apartment Directions (part 2) | `./day2-apartment-floor-directions-part2` | Given input (same as Apartment Directions) determine what step places you on floor '-1' for the first time.     |
-| :star:    | SOLVED Sept 24, 2024 | City Grid Directions           | `./day3-city-grid-directions`              | Given direction input determine the distance from your starting position to your final position.                 |
-| :star:    | SOLVED Nov 12, 2024  | Sum Repeating Numbers          | `./day4-sum-repeating-digits`              | Sum all digits in input that match the first digit.                                                              |
-| :pushpin: | UNSOLVED             | Frequency Change               | `./day5-frequency-change`                  | Given frequency and change(s) as input determine the resulting frequency.                                        |
-| :pushpin: | UNSOLVED             | Frequency Change (part 2)      | `./day6-frequency-change-part2`                  | Given frequency and change(s) as input determine the first repeated frequency.                                   |
-| :pushpin: | UNSOLVED             | Inventory Management           | `./day7-inventory-management`                  | Given list of inventory items calculate 'checksums' based on repeating letters                                |
+| :star:    | SOLVED Sept 17, 2024 | Apartment Directions (part 2) | `./day2-apartment-floor-directions-part2` | Given input (same as Apartment Directions) determine what step places you on floor '-1' for the first time.       |
+| :star:    | SOLVED Sept 24, 2024 | City Grid Directions           | `./day3-city-grid-directions`              | Given direction input determine the distance from your starting position to your final position.                    |
+| :star:    | SOLVED Nov 12, 2024  | Sum Repeating Numbers          | `./day4-sum-repeating-digits`              | Sum all digits in input that match the first digit.                                                       |
+| :pushpin: | UNSOLVED             | Frequency Change               | `./day5-frequency-change`                  | Given frequency and change(s) as input determine the resulting frequency.                                         |
+| :pushpin: | UNSOLVED             | Frequency Change (part 2)      | `./day6-frequency-change-part2`                  | Given frequency and change(s) as input determine the first repeated frequency.                                |
+| :pushpin: | UNSOLVED             | Inventory Management           | `./day7-inventory-management`                  | Given list of inventory items calculate 'checksums' based on repeating letters.                      |
+| :pushpin: | UNSOLVED             | Inventory Management (part 2)  | `./day8-find-id`                  | Given list of inventory items find two that differ by only one character.                                                   |
 
 
 ## Adding New Day
