@@ -6,7 +6,7 @@ List all notable elements that can appear in the input.
  - notable element 2
  - ...
 
-### Disclamer
+### Disclaimer
 
 This problem was heavily influenced by the [Name Of Site and Problem](link to site) problem.
 
