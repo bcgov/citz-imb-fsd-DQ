@@ -43,7 +43,7 @@ def main():
     """Flow of solution"""
     change_dir()
 
-    input_from = './test.txt'
+    input_from = './input.txt'
     input_string = read_file(input_from)
     #print(input_string)
     input_li = input_string.split("\n")
