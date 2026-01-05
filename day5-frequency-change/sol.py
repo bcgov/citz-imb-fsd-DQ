@@ -21,8 +21,22 @@ def read_file(file_path):
 
 def main():
     """Flow of solution"""
-    input_string = read_file('./test.txt')
-    print(input_string)
+    input_string = read_file('./input.txt')
+    input_li = input_string.splitlines()
+    sumNum = 0
+
+    for input_line in input_li:
+        # Is positive or negative?
+        # string = "abcd"
+        # string_1 = string[0 : 3]
+        sign = input_line[0]
+        number = int(input_line[1:])
+        #print(f"we got {sign:^3} {number:^7} ")
+        if (sign == "+"):
+            sumNum += number
+        else:
+            sumNum -= number
+    print(sumNum)
 
 if __name__ == "__main__":
     change_dir()
